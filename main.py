@@ -4,9 +4,9 @@ from models import imgModel
 from flask_restful import marshal_with,fields,abort
 import os
 from werkzeug.utils import secure_filename
-from keras.models import load_model
-from keras.preprocessing import image
-import keras
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing import image
+import tensorflow.keras
 import pandas as pd 
 import numpy as np
 from flask_cors import CORS,cross_origin
